@@ -17,6 +17,7 @@ while (true)
     Console.WriteLine("4. Показать всех животных");
     Console.WriteLine("5. Показать инвентарь");
     Console.WriteLine("6. Show stats");
+    Console.WriteLine("7. Exit");
     Console.Write("Выберите действие: ");
 
     switch (Console.ReadLine())

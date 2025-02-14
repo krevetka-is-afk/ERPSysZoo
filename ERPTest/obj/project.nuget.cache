@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RSGuHkz86qA=",
+  "dgSpecHash": "EmRV9UsBVxs=",
   "success": true,
-  "projectFilePath": "/Users/sergejrastvorov/RiderProjects/ERP/ERPTest/ERPTest.csproj",
+  "projectFilePath": "/Users/sergejrastvorov/Documents/GitHub/ERPSysZoo/ERPTest/ERPTest.csproj",
   "expectedPackageFiles": [
     "/Users/sergejrastvorov/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/sergejrastvorov/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",

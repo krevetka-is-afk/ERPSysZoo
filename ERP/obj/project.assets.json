@@ -112,11 +112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sergejrastvorov/RiderProjects/ERP/ERP/ERP.csproj",
+      "projectUniqueName": "/Users/sergejrastvorov/Documents/GitHub/ERPSysZoo/ERP/ERP.csproj",
       "projectName": "ERP",
-      "projectPath": "/Users/sergejrastvorov/RiderProjects/ERP/ERP/ERP.csproj",
+      "projectPath": "/Users/sergejrastvorov/Documents/GitHub/ERPSysZoo/ERP/ERP.csproj",
       "packagesPath": "/Users/sergejrastvorov/.nuget/packages/",
-      "outputPath": "/Users/sergejrastvorov/RiderProjects/ERP/ERP/obj/",
+      "outputPath": "/Users/sergejrastvorov/Documents/GitHub/ERPSysZoo/ERP/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sergejrastvorov/.nuget/NuGet/NuGet.Config"

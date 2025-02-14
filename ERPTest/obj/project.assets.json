@@ -5628,11 +5628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sergejrastvorov/RiderProjects/ERP/ERPTest/ERPTest.csproj",
+      "projectUniqueName": "/Users/sergejrastvorov/Documents/GitHub/ERPSysZoo/ERPTest/ERPTest.csproj",
       "projectName": "ERPTest",
-      "projectPath": "/Users/sergejrastvorov/RiderProjects/ERP/ERPTest/ERPTest.csproj",
+      "projectPath": "/Users/sergejrastvorov/Documents/GitHub/ERPSysZoo/ERPTest/ERPTest.csproj",
       "packagesPath": "/Users/sergejrastvorov/.nuget/packages/",
-      "outputPath": "/Users/sergejrastvorov/RiderProjects/ERP/ERPTest/obj/",
+      "outputPath": "/Users/sergejrastvorov/Documents/GitHub/ERPSysZoo/ERPTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sergejrastvorov/.nuget/NuGet/NuGet.Config"
@@ -5647,8 +5647,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/sergejrastvorov/RiderProjects/ERP/ERP/ERP.csproj": {
-              "projectPath": "/Users/sergejrastvorov/RiderProjects/ERP/ERP/ERP.csproj"
+            "/Users/sergejrastvorov/Documents/GitHub/ERPSysZoo/ERP/ERP.csproj": {
+              "projectPath": "/Users/sergejrastvorov/Documents/GitHub/ERPSysZoo/ERP/ERP.csproj"
             }
           }
         }
