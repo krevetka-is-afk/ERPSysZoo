@@ -57,11 +57,18 @@ public class Zoo
             Console.WriteLine($"{animal.GetType().Name} consume food {animal.Food} kg/day");   
         }
     }
+    
+    public List<Animal> GetAnimals() => _animals;
+    public List<Animal> GetContactAnimals() => _animals.OfType<Herbo>().Where(herbo => herbo.Kindness > 5).ToList<Animal>();
+    public List<Thing> GetThings() => _things;
+    public List<Worker> GetWorkers() => _workers;
+    
 
     public void ShowContactZooAnimals()
     {
         Console.WriteLine("List of animals: which can be safely added in Contact Zoo");
-        foreach (var animal in _animals.OfType<Herbo>().Where(herbo => herbo.Kindness > 5))
+        List<Animal> contactAnimals = GetContactAnimals();
+        foreach (var animal in contactAnimals)
         {
             Console.WriteLine($"{animal.GetType().Name} with kindness {{animal.Kindness}}");
         }

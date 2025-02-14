@@ -8,4 +8,5 @@ public class VetClinic
     {
         return new Random().Next(0, 2) == 1;
     }
+    
 }
