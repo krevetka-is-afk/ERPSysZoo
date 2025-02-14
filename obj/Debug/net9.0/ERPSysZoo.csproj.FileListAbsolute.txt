@@ -16,3 +16,4 @@
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.pdb
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.genruntimeconfig.cache
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ref/ERPSysZoo.dll
+/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.sourcelink.json
