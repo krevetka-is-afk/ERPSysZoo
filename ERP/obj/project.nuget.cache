@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "e2mmubfdTTI=",
+  "success": true,
+  "projectFilePath": "/Users/sergejrastvorov/RiderProjects/ERP/ERP/ERP.csproj",
+  "expectedPackageFiles": [
+    "/Users/sergejrastvorov/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.2/microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
+    "/Users/sergejrastvorov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.2/microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
