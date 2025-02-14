@@ -1,0 +1,419 @@
+Index: obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj\",\"projectName\":\"ERPSysZoo\",\"projectPath\":\"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj\",\"outputPath\":\"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/\",\"projectStyle\":\"PackageReference\",\"originalTargetFrameworks\":[\"net9.0\"],\"sources\":{\"/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs\":{},\"https://api.nuget.org/v3/index.json\":{}},\"frameworks\":{\"net9.0\":{\"targetAlias\":\"net9.0\",\"projectReferences\":{}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]},\"restoreAuditProperties\":{\"enableAudit\":\"true\",\"auditLevel\":\"low\",\"auditMode\":\"direct\"},\"SdkAnalysisLevel\":\"9.0.100\"}\"frameworks\":{\"net9.0\":{\"targetAlias\":\"net9.0\",\"dependencies\":{\"Microsoft.Extensions.DependencyInjection\":{\"target\":\"Package\",\"version\":\"[9.0.2, )\"}},\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"frameworkReferences\":{\"Microsoft.NETCore.App\":{\"privateAssets\":\"all\"}},\"runtimeIdentifierGraphPath\":\"/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json\"}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/obj/project.packagespec.json b/obj/project.packagespec.json
+--- a/obj/project.packagespec.json	(revision 8b79358fd8d64f29e7596633b1b01e39c92a27db)
++++ b/obj/project.packagespec.json	(date 1739563025741)
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj","projectName":"ERPSysZoo","projectPath":"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj","outputPath":"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/","projectStyle":"PackageReference","originalTargetFrameworks":["net9.0"],"sources":{"/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs":{},"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net9.0":{"targetAlias":"net9.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]},"restoreAuditProperties":{"enableAudit":"true","auditLevel":"low","auditMode":"direct"},"SdkAnalysisLevel":"9.0.100"}"frameworks":{"net9.0":{"targetAlias":"net9.0","dependencies":{"Microsoft.Extensions.DependencyInjection":{"target":"Package","version":"[9.0.2, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj","projectName":"ERPSysZoo","projectPath":"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj","outputPath":"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/","projectStyle":"PackageReference","originalTargetFrameworks":["net9.0"],"sources":{"/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs":{},"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net9.0":{"targetAlias":"net9.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]},"restoreAuditProperties":{"enableAudit":"true","auditLevel":"low","auditMode":"direct"},"SdkAnalysisLevel":"9.0.100"}"frameworks":{"net9.0":{"targetAlias":"net9.0","dependencies":{"Microsoft.Extensions.DependencyInjection":{"target":"Package","version":"[9.0.2, )"},"xunit":{"target":"Package","version":"[2.9.3, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17395307654688327
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/obj/rider.project.restore.info b/obj/rider.project.restore.info
+--- a/obj/rider.project.restore.info	(revision 8b79358fd8d64f29e7596633b1b01e39c92a27db)
++++ b/obj/rider.project.restore.info	(date 1739563080311)
+@@ -1,1 +1,1 @@
+-17395307654688327
+\ No newline at end of file
++17395630257546678
+\ No newline at end of file
+Index: obj/ERPSysZoo.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"format\": 1,\n  \"restore\": {\n    \"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj\": {}\n  },\n  \"projects\": {\n    \"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj\": {\n      \"version\": \"1.0.0\",\n      \"restore\": {\n        \"projectUniqueName\": \"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj\",\n        \"projectName\": \"ERPSysZoo\",\n        \"projectPath\": \"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj\",\n        \"packagesPath\": \"/Users/sergejrastvorov/.nuget/packages/\",\n        \"outputPath\": \"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/\",\n        \"projectStyle\": \"PackageReference\",\n        \"configFilePaths\": [\n          \"/Users/sergejrastvorov/.nuget/NuGet/NuGet.Config\"\n        ],\n        \"originalTargetFrameworks\": [\n          \"net9.0\"\n        ],\n        \"sources\": {\n          \"/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs\": {},\n          \"https://api.nuget.org/v3/index.json\": {}\n        },\n        \"frameworks\": {\n          \"net9.0\": {\n            \"targetAlias\": \"net9.0\",\n            \"projectReferences\": {}\n          }\n        },\n        \"warningProperties\": {\n          \"warnAsError\": [\n            \"NU1605\"\n          ]\n        },\n        \"restoreAuditProperties\": {\n          \"enableAudit\": \"true\",\n          \"auditLevel\": \"low\",\n          \"auditMode\": \"direct\"\n        },\n        \"SdkAnalysisLevel\": \"9.0.100\"\n      },\n      \"frameworks\": {\n        \"net9.0\": {\n          \"targetAlias\": \"net9.0\",\n          \"dependencies\": {\n            \"Microsoft.Extensions.DependencyInjection\": {\n              \"target\": \"Package\",\n              \"version\": \"[9.0.2, )\"\n            }\n          },\n          \"imports\": [\n            \"net461\",\n            \"net462\",\n            \"net47\",\n            \"net471\",\n            \"net472\",\n            \"net48\",\n            \"net481\"\n          ],\n          \"assetTargetFallback\": true,\n          \"warn\": true,\n          \"frameworkReferences\": {\n            \"Microsoft.NETCore.App\": {\n              \"privateAssets\": \"all\"\n            }\n          },\n          \"runtimeIdentifierGraphPath\": \"/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json\"\n        }\n      }\n    }\n  }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/obj/ERPSysZoo.csproj.nuget.dgspec.json b/obj/ERPSysZoo.csproj.nuget.dgspec.json
+--- a/obj/ERPSysZoo.csproj.nuget.dgspec.json	(revision 8b79358fd8d64f29e7596633b1b01e39c92a27db)
++++ b/obj/ERPSysZoo.csproj.nuget.dgspec.json	(date 1739563025754)
+@@ -48,6 +48,10 @@
+             "Microsoft.Extensions.DependencyInjection": {
+               "target": "Package",
+               "version": "[9.0.2, )"
++            },
++            "xunit": {
++              "target": "Package",
++              "version": "[2.9.3, )"
+             }
+           },
+           "imports": [
+Index: obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17395307652863042
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/obj/rider.project.model.nuget.info b/obj/rider.project.model.nuget.info
+--- a/obj/rider.project.model.nuget.info	(revision 8b79358fd8d64f29e7596633b1b01e39c92a27db)
++++ b/obj/rider.project.model.nuget.info	(date 1739563080289)
+@@ -1,1 +1,1 @@
+-17395307652863042
+\ No newline at end of file
++17395630257546678
+\ No newline at end of file
+Index: obj/ERPSysZoo.csproj.nuget.g.targets
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\" />
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/obj/ERPSysZoo.csproj.nuget.g.targets b/obj/ERPSysZoo.csproj.nuget.g.targets
+--- a/obj/ERPSysZoo.csproj.nuget.g.targets	(revision 8b79358fd8d64f29e7596633b1b01e39c92a27db)
++++ b/obj/ERPSysZoo.csproj.nuget.g.targets	(date 1739563025680)
+@@ -1,2 +1,6 @@
+ <?xml version="1.0" encoding="utf-8" standalone="no"?>
+-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+\ No newline at end of file
++<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
++  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <Import Project="$(NuGetPackageRoot)xunit.core/2.9.3/build/xunit.core.targets" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.9.3/build/xunit.core.targets')" />
++  </ImportGroup>
++</Project>
+\ No newline at end of file
+Index: obj/ERPSysZoo.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">/Users/sergejrastvorov/.nuget/packages/</NuGetPackageRoot>\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">/Users/sergejrastvorov/.nuget/packages/</NuGetPackageFolders>\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">6.12.2</NuGetToolVersion>\n  </PropertyGroup>\n  <ItemGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\n    <SourceRoot Include=\"/Users/sergejrastvorov/.nuget/packages/\" />\n  </ItemGroup>\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/obj/ERPSysZoo.csproj.nuget.g.props b/obj/ERPSysZoo.csproj.nuget.g.props
+--- a/obj/ERPSysZoo.csproj.nuget.g.props	(revision 8b79358fd8d64f29e7596633b1b01e39c92a27db)
++++ b/obj/ERPSysZoo.csproj.nuget.g.props	(date 1739563025680)
+@@ -12,4 +12,10 @@
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+     <SourceRoot Include="/Users/sergejrastvorov/.nuget/packages/" />
+   </ItemGroup>
++  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <Import Project="$(NuGetPackageRoot)xunit.core/2.9.3/build/xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.9.3/build/xunit.core.props')" />
++  </ImportGroup>
++  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">/Users/sergejrastvorov/.nuget/packages/xunit.analyzers/1.18.0</Pkgxunit_analyzers>
++  </PropertyGroup>
+ </Project>
+\ No newline at end of file
+Index: ERPSysZoo.csproj
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><Project Sdk=\"Microsoft.NET.Sdk\">\n\n    <PropertyGroup>\n        <OutputType>Exe</OutputType>\n        <TargetFramework>net9.0</TargetFramework>\n        <ImplicitUsings>enable</ImplicitUsings>\n        <Nullable>enable</Nullable>\n    </PropertyGroup>\n\n    <ItemGroup>\n      <PackageReference Include=\"Microsoft.Extensions.DependencyInjection\" Version=\"9.0.2\" />\n    </ItemGroup>\n\n</Project>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ERPSysZoo.csproj b/ERPSysZoo.csproj
+--- a/ERPSysZoo.csproj	(revision 8b79358fd8d64f29e7596633b1b01e39c92a27db)
++++ b/ERPSysZoo.csproj	(date 1739563025685)
+@@ -9,6 +9,7 @@
+ 
+     <ItemGroup>
+       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.2" />
++      <PackageReference Include="xunit" Version="2.9.3" />
+     </ItemGroup>
+ 
+ </Project>
+Index: obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"version\": 3,\n  \"targets\": {\n    \"net9.0\": {\n      \"Microsoft.Extensions.DependencyInjection/9.0.2\": {\n        \"type\": \"package\",\n        \"dependencies\": {\n          \"Microsoft.Extensions.DependencyInjection.Abstractions\": \"9.0.2\"\n        },\n        \"compile\": {\n          \"lib/net9.0/Microsoft.Extensions.DependencyInjection.dll\": {\n            \"related\": \".xml\"\n          }\n        },\n        \"runtime\": {\n          \"lib/net9.0/Microsoft.Extensions.DependencyInjection.dll\": {\n            \"related\": \".xml\"\n          }\n        },\n        \"build\": {\n          \"buildTransitive/net8.0/_._\": {}\n        }\n      },\n      \"Microsoft.Extensions.DependencyInjection.Abstractions/9.0.2\": {\n        \"type\": \"package\",\n        \"compile\": {\n          \"lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll\": {\n            \"related\": \".xml\"\n          }\n        },\n        \"runtime\": {\n          \"lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll\": {\n            \"related\": \".xml\"\n          }\n        },\n        \"build\": {\n          \"buildTransitive/net8.0/_._\": {}\n        }\n      }\n    }\n  },\n  \"libraries\": {\n    \"Microsoft.Extensions.DependencyInjection/9.0.2\": {\n      \"sha512\": \"ZffbJrskOZ40JTzcTyKwFHS5eACSWp2bUQBBApIgGV+es8RaTD4OxUG7XxFr3RIPLXtYQ1jQzF2DjKB5fZn7Qg==\",\n      \"type\": \"package\",\n      \"path\": \"microsoft.extensions.dependencyinjection/9.0.2\",\n      \"files\": [\n        \".nupkg.metadata\",\n        \".signature.p7s\",\n        \"Icon.png\",\n        \"LICENSE.TXT\",\n        \"PACKAGE.md\",\n        \"THIRD-PARTY-NOTICES.TXT\",\n        \"buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets\",\n        \"buildTransitive/net462/_._\",\n        \"buildTransitive/net8.0/_._\",\n        \"buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets\",\n        \"lib/net462/Microsoft.Extensions.DependencyInjection.dll\",\n        \"lib/net462/Microsoft.Extensions.DependencyInjection.xml\",\n        \"lib/net8.0/Microsoft.Extensions.DependencyInjection.dll\",\n        \"lib/net8.0/Microsoft.Extensions.DependencyInjection.xml\",\n        \"lib/net9.0/Microsoft.Extensions.DependencyInjection.dll\",\n        \"lib/net9.0/Microsoft.Extensions.DependencyInjection.xml\",\n        \"lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll\",\n        \"lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml\",\n        \"lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll\",\n        \"lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml\",\n        \"microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512\",\n        \"microsoft.extensions.dependencyinjection.nuspec\",\n        \"useSharedDesignerContext.txt\"\n      ]\n    },\n    \"Microsoft.Extensions.DependencyInjection.Abstractions/9.0.2\": {\n      \"sha512\": \"MNe7GSTBf3jQx5vYrXF0NZvn6l7hUKF6J54ENfAgCO8y6xjN1XUmKKWG464LP2ye6QqDiA1dkaWEZBYnhoZzjg==\",\n      \"type\": \"package\",\n      \"path\": \"microsoft.extensions.dependencyinjection.abstractions/9.0.2\",\n      \"files\": [\n        \".nupkg.metadata\",\n        \".signature.p7s\",\n        \"Icon.png\",\n        \"LICENSE.TXT\",\n        \"PACKAGE.md\",\n        \"THIRD-PARTY-NOTICES.TXT\",\n        \"buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets\",\n        \"buildTransitive/net462/_._\",\n        \"buildTransitive/net8.0/_._\",\n        \"buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets\",\n        \"lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll\",\n        \"lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml\",\n        \"lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll\",\n        \"lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml\",\n        \"lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll\",\n        \"lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml\",\n        \"lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll\",\n        \"lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml\",\n        \"lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll\",\n        \"lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml\",\n        \"microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512\",\n        \"microsoft.extensions.dependencyinjection.abstractions.nuspec\",\n        \"useSharedDesignerContext.txt\"\n      ]\n    }\n  },\n  \"projectFileDependencyGroups\": {\n    \"net9.0\": [\n      \"Microsoft.Extensions.DependencyInjection >= 9.0.2\"\n    ]\n  },\n  \"packageFolders\": {\n    \"/Users/sergejrastvorov/.nuget/packages/\": {}\n  },\n  \"project\": {\n    \"version\": \"1.0.0\",\n    \"restore\": {\n      \"projectUniqueName\": \"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj\",\n      \"projectName\": \"ERPSysZoo\",\n      \"projectPath\": \"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/ERPSysZoo.csproj\",\n      \"packagesPath\": \"/Users/sergejrastvorov/.nuget/packages/\",\n      \"outputPath\": \"/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/\",\n      \"projectStyle\": \"PackageReference\",\n      \"configFilePaths\": [\n        \"/Users/sergejrastvorov/.nuget/NuGet/NuGet.Config\"\n      ],\n      \"originalTargetFrameworks\": [\n        \"net9.0\"\n      ],\n      \"sources\": {\n        \"/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs\": {},\n        \"https://api.nuget.org/v3/index.json\": {}\n      },\n      \"frameworks\": {\n        \"net9.0\": {\n          \"targetAlias\": \"net9.0\",\n          \"projectReferences\": {}\n        }\n      },\n      \"warningProperties\": {\n        \"warnAsError\": [\n          \"NU1605\"\n        ]\n      },\n      \"restoreAuditProperties\": {\n        \"enableAudit\": \"true\",\n        \"auditLevel\": \"low\",\n        \"auditMode\": \"direct\"\n      },\n      \"SdkAnalysisLevel\": \"9.0.100\"\n    },\n    \"frameworks\": {\n      \"net9.0\": {\n        \"targetAlias\": \"net9.0\",\n        \"dependencies\": {\n          \"Microsoft.Extensions.DependencyInjection\": {\n            \"target\": \"Package\",\n            \"version\": \"[9.0.2, )\"\n          }\n        },\n        \"imports\": [\n          \"net461\",\n          \"net462\",\n          \"net47\",\n          \"net471\",\n          \"net472\",\n          \"net48\",\n          \"net481\"\n        ],\n        \"assetTargetFallback\": true,\n        \"warn\": true,\n        \"frameworkReferences\": {\n          \"Microsoft.NETCore.App\": {\n            \"privateAssets\": \"all\"\n          }\n        },\n        \"runtimeIdentifierGraphPath\": \"/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json\"\n      }\n    }\n  }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/obj/project.assets.json b/obj/project.assets.json
+--- a/obj/project.assets.json	(revision 8b79358fd8d64f29e7596633b1b01e39c92a27db)
++++ b/obj/project.assets.json	(date 1739563025754)
+@@ -36,6 +36,90 @@
+         "build": {
+           "buildTransitive/net8.0/_._": {}
+         }
++      },
++      "xunit/2.9.3": {
++        "type": "package",
++        "dependencies": {
++          "xunit.analyzers": "1.18.0",
++          "xunit.assert": "2.9.3",
++          "xunit.core": "[2.9.3]"
++        }
++      },
++      "xunit.abstractions/2.0.3": {
++        "type": "package",
++        "compile": {
++          "lib/netstandard2.0/xunit.abstractions.dll": {
++            "related": ".xml"
++          }
++        },
++        "runtime": {
++          "lib/netstandard2.0/xunit.abstractions.dll": {
++            "related": ".xml"
++          }
++        }
++      },
++      "xunit.analyzers/1.18.0": {
++        "type": "package"
++      },
++      "xunit.assert/2.9.3": {
++        "type": "package",
++        "compile": {
++          "lib/net6.0/xunit.assert.dll": {
++            "related": ".xml"
++          }
++        },
++        "runtime": {
++          "lib/net6.0/xunit.assert.dll": {
++            "related": ".xml"
++          }
++        }
++      },
++      "xunit.core/2.9.3": {
++        "type": "package",
++        "dependencies": {
++          "xunit.extensibility.core": "[2.9.3]",
++          "xunit.extensibility.execution": "[2.9.3]"
++        },
++        "build": {
++          "build/xunit.core.props": {},
++          "build/xunit.core.targets": {}
++        },
++        "buildMultiTargeting": {
++          "buildMultiTargeting/xunit.core.props": {},
++          "buildMultiTargeting/xunit.core.targets": {}
++        }
++      },
++      "xunit.extensibility.core/2.9.3": {
++        "type": "package",
++        "dependencies": {
++          "xunit.abstractions": "2.0.3"
++        },
++        "compile": {
++          "lib/netstandard1.1/xunit.core.dll": {
++            "related": ".xml"
++          }
++        },
++        "runtime": {
++          "lib/netstandard1.1/xunit.core.dll": {
++            "related": ".xml"
++          }
++        }
++      },
++      "xunit.extensibility.execution/2.9.3": {
++        "type": "package",
++        "dependencies": {
++          "xunit.extensibility.core": "[2.9.3]"
++        },
++        "compile": {
++          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
++            "related": ".xml"
++          }
++        },
++        "runtime": {
++          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
++            "related": ".xml"
++          }
++        }
+       }
+     }
+   },
+@@ -99,11 +183,131 @@
+         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+         "useSharedDesignerContext.txt"
+       ]
++    },
++    "xunit/2.9.3": {
++      "sha512": "TlXQBinK35LpOPKHAqbLY4xlEen9TBafjs0V5KnA4wZsoQLQJiirCR4CbIXvOH8NzkW4YeJKP5P/Bnrodm0h9Q==",
++      "type": "package",
++      "path": "xunit/2.9.3",
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "_content/README.md",
++        "_content/logo-128-transparent.png",
++        "xunit.2.9.3.nupkg.sha512",
++        "xunit.nuspec"
++      ]
++    },
++    "xunit.abstractions/2.0.3": {
++      "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
++      "type": "package",
++      "path": "xunit.abstractions/2.0.3",
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "lib/net35/xunit.abstractions.dll",
++        "lib/net35/xunit.abstractions.xml",
++        "lib/netstandard1.0/xunit.abstractions.dll",
++        "lib/netstandard1.0/xunit.abstractions.xml",
++        "lib/netstandard2.0/xunit.abstractions.dll",
++        "lib/netstandard2.0/xunit.abstractions.xml",
++        "xunit.abstractions.2.0.3.nupkg.sha512",
++        "xunit.abstractions.nuspec"
++      ]
++    },
++    "xunit.analyzers/1.18.0": {
++      "sha512": "OtFMHN8yqIcYP9wcVIgJrq01AfTxijjAqVDy/WeQVSyrDC1RzBWeQPztL49DN2syXRah8TYnfvk035s7L95EZQ==",
++      "type": "package",
++      "path": "xunit.analyzers/1.18.0",
++      "hasTools": true,
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "_content/README.md",
++        "_content/logo-128-transparent.png",
++        "analyzers/dotnet/cs/xunit.analyzers.dll",
++        "analyzers/dotnet/cs/xunit.analyzers.fixes.dll",
++        "tools/install.ps1",
++        "tools/uninstall.ps1",
++        "xunit.analyzers.1.18.0.nupkg.sha512",
++        "xunit.analyzers.nuspec"
++      ]
++    },
++    "xunit.assert/2.9.3": {
++      "sha512": "/Kq28fCE7MjOV42YLVRAJzRF0WmEqsmflm0cfpMjGtzQ2lR5mYVj1/i0Y8uDAOLczkL3/jArrwehfMD0YogMAA==",
++      "type": "package",
++      "path": "xunit.assert/2.9.3",
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "_content/README.md",
++        "_content/logo-128-transparent.png",
++        "lib/net6.0/xunit.assert.dll",
++        "lib/net6.0/xunit.assert.xml",
++        "lib/netstandard1.1/xunit.assert.dll",
++        "lib/netstandard1.1/xunit.assert.xml",
++        "xunit.assert.2.9.3.nupkg.sha512",
++        "xunit.assert.nuspec"
++      ]
++    },
++    "xunit.core/2.9.3": {
++      "sha512": "BiAEvqGvyme19wE0wTKdADH+NloYqikiU0mcnmiNyXaF9HyHmE6sr/3DC5vnBkgsWaE6yPyWszKSPSApWdRVeQ==",
++      "type": "package",
++      "path": "xunit.core/2.9.3",
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "_content/README.md",
++        "_content/logo-128-transparent.png",
++        "build/xunit.core.props",
++        "build/xunit.core.targets",
++        "buildMultiTargeting/xunit.core.props",
++        "buildMultiTargeting/xunit.core.targets",
++        "xunit.core.2.9.3.nupkg.sha512",
++        "xunit.core.nuspec"
++      ]
++    },
++    "xunit.extensibility.core/2.9.3": {
++      "sha512": "kf3si0YTn2a8J8eZNb+zFpwfoyvIrQ7ivNk5ZYA5yuYk1bEtMe4DxJ2CF/qsRgmEnDr7MnW1mxylBaHTZ4qErA==",
++      "type": "package",
++      "path": "xunit.extensibility.core/2.9.3",
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "_content/README.md",
++        "_content/logo-128-transparent.png",
++        "lib/net452/xunit.core.dll",
++        "lib/net452/xunit.core.dll.tdnet",
++        "lib/net452/xunit.core.xml",
++        "lib/net452/xunit.runner.tdnet.dll",
++        "lib/net452/xunit.runner.utility.net452.dll",
++        "lib/netstandard1.1/xunit.core.dll",
++        "lib/netstandard1.1/xunit.core.xml",
++        "xunit.extensibility.core.2.9.3.nupkg.sha512",
++        "xunit.extensibility.core.nuspec"
++      ]
++    },
++    "xunit.extensibility.execution/2.9.3": {
++      "sha512": "yMb6vMESlSrE3Wfj7V6cjQ3S4TXdXpRqYeNEI3zsX31uTsGMJjEw6oD5F5u1cHnMptjhEECnmZSsPxB6ChZHDQ==",
++      "type": "package",
++      "path": "xunit.extensibility.execution/2.9.3",
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "_content/README.md",
++        "_content/logo-128-transparent.png",
++        "lib/net452/xunit.execution.desktop.dll",
++        "lib/net452/xunit.execution.desktop.xml",
++        "lib/netstandard1.1/xunit.execution.dotnet.dll",
++        "lib/netstandard1.1/xunit.execution.dotnet.xml",
++        "xunit.extensibility.execution.2.9.3.nupkg.sha512",
++        "xunit.extensibility.execution.nuspec"
++      ]
+     }
+   },
+   "projectFileDependencyGroups": {
+     "net9.0": [
+-      "Microsoft.Extensions.DependencyInjection >= 9.0.2"
++      "Microsoft.Extensions.DependencyInjection >= 9.0.2",
++      "xunit >= 2.9.3"
+     ]
+   },
+   "packageFolders": {
+@@ -153,6 +357,10 @@
+           "Microsoft.Extensions.DependencyInjection": {
+             "target": "Package",
+             "version": "[9.0.2, )"
++          },
++          "xunit": {
++            "target": "Package",
++            "version": "[2.9.3, )"
+           }
+         },
+         "imports": [
+Index: obj/Debug/net9.0/ERPSysZoo.AssemblyInfo.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//------------------------------------------------------------------------------\n// <auto-generated>\n//     This code was generated by a tool.\n//\n//     Changes to this file may cause incorrect behavior and will be lost if\n//     the code is regenerated.\n// </auto-generated>\n//------------------------------------------------------------------------------\n\nusing System;\nusing System.Reflection;\n\n[assembly: System.Reflection.AssemblyCompanyAttribute(\"ERPSysZoo\")]\n[assembly: System.Reflection.AssemblyConfigurationAttribute(\"Debug\")]\n[assembly: System.Reflection.AssemblyFileVersionAttribute(\"1.0.0.0\")]\n[assembly: System.Reflection.AssemblyInformationalVersionAttribute(\"1.0.0+6f1d543a70d83c98f1d646b89cd677a0337b6eb4\")]\n[assembly: System.Reflection.AssemblyProductAttribute(\"ERPSysZoo\")]\n[assembly: System.Reflection.AssemblyTitleAttribute(\"ERPSysZoo\")]\n[assembly: System.Reflection.AssemblyVersionAttribute(\"1.0.0.0\")]\n\n// Generated by the MSBuild WriteCodeFragment class.\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/obj/Debug/net9.0/ERPSysZoo.AssemblyInfo.cs b/obj/Debug/net9.0/ERPSysZoo.AssemblyInfo.cs
+--- a/obj/Debug/net9.0/ERPSysZoo.AssemblyInfo.cs	(revision 8b79358fd8d64f29e7596633b1b01e39c92a27db)
++++ b/obj/Debug/net9.0/ERPSysZoo.AssemblyInfo.cs	(date 1739562829017)
+@@ -13,7 +13,7 @@
+ [assembly: System.Reflection.AssemblyCompanyAttribute("ERPSysZoo")]
+ [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+ [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f1d543a70d83c98f1d646b89cd677a0337b6eb4")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b79358fd8d64f29e7596633b1b01e39c92a27db")]
+ [assembly: System.Reflection.AssemblyProductAttribute("ERPSysZoo")]
+ [assembly: System.Reflection.AssemblyTitleAttribute("ERPSysZoo")]
+ [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+Index: ERPSysZoo.sln
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\nMicrosoft Visual Studio Solution File, Format Version 12.00\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"ERPSysZoo\", \"ERPSysZoo.csproj\", \"{9E0B0A38-3282-44E2-8574-3C77317C31FE}\"\nEndProject\nGlobal\n\tGlobalSection(SolutionConfigurationPlatforms) = preSolution\n\t\tDebug|Any CPU = Debug|Any CPU\n\t\tRelease|Any CPU = Release|Any CPU\n\tEndGlobalSection\n\tGlobalSection(ProjectConfigurationPlatforms) = postSolution\n\t\t{9E0B0A38-3282-44E2-8574-3C77317C31FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\n\t\t{9E0B0A38-3282-44E2-8574-3C77317C31FE}.Debug|Any CPU.Build.0 = Debug|Any CPU\n\t\t{9E0B0A38-3282-44E2-8574-3C77317C31FE}.Release|Any CPU.ActiveCfg = Release|Any CPU\n\t\t{9E0B0A38-3282-44E2-8574-3C77317C31FE}.Release|Any CPU.Build.0 = Release|Any CPU\n\tEndGlobalSection\nEndGlobal\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ERPSysZoo.sln b/ERPSysZoo.sln
+--- a/ERPSysZoo.sln	(revision 8b79358fd8d64f29e7596633b1b01e39c92a27db)
++++ b/ERPSysZoo.sln	(date 1739562987156)
+@@ -2,6 +2,8 @@
+ Microsoft Visual Studio Solution File, Format Version 12.00
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERPSysZoo", "ERPSysZoo.csproj", "{9E0B0A38-3282-44E2-8574-3C77317C31FE}"
+ EndProject
++Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6150C4F1-3427-467C-9B97-9B14F4E41562}"
++EndProject
+ Global
+ 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+ 		Debug|Any CPU = Debug|Any CPU
+@@ -12,5 +14,9 @@
+ 		{9E0B0A38-3282-44E2-8574-3C77317C31FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{9E0B0A38-3282-44E2-8574-3C77317C31FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+ 		{9E0B0A38-3282-44E2-8574-3C77317C31FE}.Release|Any CPU.Build.0 = Release|Any CPU
++		{6150C4F1-3427-467C-9B97-9B14F4E41562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
++		{6150C4F1-3427-467C-9B97-9B14F4E41562}.Debug|Any CPU.Build.0 = Debug|Any CPU
++		{6150C4F1-3427-467C-9B97-9B14F4E41562}.Release|Any CPU.ActiveCfg = Release|Any CPU
++		{6150C4F1-3427-467C-9B97-9B14F4E41562}.Release|Any CPU.Build.0 = Release|Any CPU
+ 	EndGlobalSection
+ EndGlobal
