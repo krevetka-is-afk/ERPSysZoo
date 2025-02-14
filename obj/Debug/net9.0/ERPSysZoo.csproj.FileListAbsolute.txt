@@ -1,7 +1,3 @@
-/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.csproj.AssemblyReference.cache
-/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.GeneratedMSBuildEditorConfig.editorconfig
-/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.csproj.CoreCompileInputs.cache
-/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.sourcelink.json
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/bin/Debug/net9.0/ERPSysZoo
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/bin/Debug/net9.0/ERPSysZoo.deps.json
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/bin/Debug/net9.0/ERPSysZoo.runtimeconfig.json
@@ -88,6 +84,10 @@
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.csproj.AssemblyReference.cache
+/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.csproj.CoreCompileInputs.cache
+/Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.sourcelink.json
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.csproj.Up2Date
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/ERPSysZoo.dll
 /Users/sergejrastvorov/RiderProjects/ERPSysZoo/obj/Debug/net9.0/refint/ERPSysZoo.dll
