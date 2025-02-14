@@ -6,7 +6,7 @@ public class Worker : IAlive, IInventory, IPerson
     public int Number { get; }
     public string Name { get; }
 
-    public Worker(string name, int food = 0)
+    public Worker(string name, int food = 1)
     {
         Name = name;
         Food = food;
