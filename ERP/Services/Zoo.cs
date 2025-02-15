@@ -14,6 +14,16 @@ public class Zoo
     private int _totalWorkers = 0;
     private int _totalAnimalsFood = 0;
     private int _totalWorkersFood = 0;
+    
+    public List<Animal> GetAnimals => _animals;
+    public List<Animal> GetContactAnimals => _animals.OfType<Herbo>().Where(herbo => herbo.Kindness > 5).ToList<Animal>();
+    public List<Thing> GetThings => _things;
+    public List<Worker> GetWorkers => _workers;
+    public int GetTotalAnimals => _totalAnimals;
+    public int GetTotalThings => _totalThings;
+    public int GetTotalWorkers => _totalWorkers;
+    public int GetTotalAnimalsFood => _totalAnimalsFood;
+    public int GetTotalWorkersFood => _totalWorkersFood;
 
     public Zoo(VetClinic vetClinic)
     {
@@ -22,11 +32,16 @@ public class Zoo
 
     public void AddAnimal(Animal animal)
     {
-        if (!_vetClinic.CheckHealth(animal))
+        if (_vetClinic.CheckHealth(animal))
+        {
+            _animals.Add(animal);
+            _totalAnimals++;
+            _totalAnimalsFood += animal.Food;
+        }
+        else
+        {
             Console.WriteLine($"Animal {animal.GetType().Name} is not healthy, so we can't add it");
-        _animals.Add(animal);
-        _totalAnimals++;
-        _totalAnimalsFood += animal.Food;
+        }
     }
 
     public void AddThing(Thing thing)
@@ -44,40 +59,37 @@ public class Zoo
 
     public void ShowStats()
     {
-        Console.WriteLine($"Total Animals: {_totalAnimals} –– Food: {_totalAnimalsFood}");
-        Console.WriteLine($"Total Workers: {_totalWorkers} –– Food: {_totalWorkersFood}");
-        Console.WriteLine($"Total Things: {_totalThings}");
+        Console.WriteLine($"Total Animals: {GetTotalAnimals} –– Food: {GetTotalAnimalsFood}");
+        Console.WriteLine($"Total Animals in Contact Zoo: {GetContactAnimals.Count()}");
+        Console.WriteLine($"Total Workers: {GetTotalWorkers} –– Food: {GetTotalWorkersFood}");
+        Console.WriteLine($"Total Things: {GetTotalThings}");
     }
 
     public void ShowAnimals()
     {
-        Console.WriteLine($"List of {_animals.Count} animals in this Zoo");
-        foreach (var animal in _animals)
+        List<Animal> animals = GetAnimals;
+        Console.WriteLine($"List of {animals.Count()} animals in this Zoo");
+        foreach (var animal in animals)
         {
             Console.WriteLine($"{animal.GetType().Name} consume food {animal.Food} kg/day");   
         }
     }
     
-    public List<Animal> GetAnimals() => _animals;
-    public List<Animal> GetContactAnimals() => _animals.OfType<Herbo>().Where(herbo => herbo.Kindness > 5).ToList<Animal>();
-    public List<Thing> GetThings() => _things;
-    public List<Worker> GetWorkers() => _workers;
-    
-
     public void ShowContactZooAnimals()
     {
         Console.WriteLine("List of animals: which can be safely added in Contact Zoo");
-        List<Animal> contactAnimals = GetContactAnimals();
+        List<Animal> contactAnimals = GetContactAnimals;
         foreach (var animal in contactAnimals)
         {
-            Console.WriteLine($"{animal.GetType().Name} with kindness {{animal.Kindness}}");
+            Console.WriteLine($"{animal.GetType().Name}");
         }
     }
 
     public void ShowThings()
     {
+        List<Thing> things = GetThings;
         Console.WriteLine("List of things: which exist in Zoo");
-        foreach (var thing in _things)
+        foreach (var thing in things)
         {
             Console.WriteLine($"{thing.GetType().Name} _№_ {thing.Number}");
         }
@@ -85,8 +97,9 @@ public class Zoo
 
     public void ShowWorkers()
     {
+        List<Worker> workers = GetWorkers;
         Console.WriteLine("List of Workers of the Zoo");
-        foreach (var worker in _workers)
+        foreach (var worker in workers)
         {
             Console.WriteLine($"{worker.Name} has Id: {worker.Number}");
         }

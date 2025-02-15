@@ -7,6 +7,12 @@
     &lt;TestId&gt;xUnit::51E7AB03-F842-42E6-B4B5-5366F36E8670::net8.0::ERPTest.VetClinicTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::51E7AB03-F842-42E6-B4B5-5366F36E8670::net8.0::ERPTest.EntityFactoryTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::51E7AB03-F842-42E6-B4B5-5366F36E8670::net8.0::ERPTest.ContactZooTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::51E7AB03-F842-42E6-B4B5-5366F36E8670::net8.0::ERPTest.ThingsTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::51E7AB03-F842-42E6-B4B5-5366F36E8670::net8.0::ERPTest.WorkerTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::51E7AB03-F842-42E6-B4B5-5366F36E8670::net8.0::ERPTest.FoodConsumptionTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::51E7AB03-F842-42E6-B4B5-5366F36E8670::net8.0::ERPTest.ZooTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::51E7AB03-F842-42E6-B4B5-5366F36E8670::net8.0::ERPTest.AnimalTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::51E7AB03-F842-42E6-B4B5-5366F36E8670::net8.0::ERPTest.DependencyInjectionTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	</wpf:ResourceDictionary>

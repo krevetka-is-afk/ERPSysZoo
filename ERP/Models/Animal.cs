@@ -11,6 +11,4 @@ public abstract class Animal : IAlive, IInventory
         Food = food;
         Number = EntityFactory.GetNextId();
     }
-
-    public abstract void MakeSound();
 }
