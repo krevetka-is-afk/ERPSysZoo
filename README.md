@@ -30,6 +30,7 @@
 1. Клонируйте репозиторий:
    ```sh
    git clone https://github.com/krevetka-is-afk/ERPSysZoo.git
+   cd ERPSysZoo
    cd ERP
    ```
 2. Установите зависимости:
