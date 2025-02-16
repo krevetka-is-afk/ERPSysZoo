@@ -27,7 +27,6 @@ while (true)
             Console.WriteLine("2. Добавить Кролика");
             Console.WriteLine("3. Добавить Волка");
             Console.WriteLine("4. Добавить Тигра");
-            // Console.WriteLine("5. Выход");
             switch (Console.ReadLine())
             {
                 case "1":
@@ -42,8 +41,6 @@ while (true)
                 case "4":
                     zoo.AddAnimal(new Tiger(new Random().Next(3, 15)));
                     break;
-                // case "5":
-                //     return;
                 default:
                     Console.WriteLine("Неверный ввод!");
                     break;
@@ -53,7 +50,6 @@ while (true)
         case "2":
             Console.WriteLine("1. Добавить Компьютер");
             Console.WriteLine("2. Добавить Стол");
-            // Console.WriteLine("3. Выход");
             switch (Console.ReadLine())
             {
                 case "1":
@@ -62,8 +58,6 @@ while (true)
                 case "2":
                     zoo.AddThing(new Table());
                     break;
-                // case "3":
-                //     return;
                 default:
                     Console.WriteLine("Неверный ввод!");
                     break;

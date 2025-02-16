@@ -16,9 +16,6 @@ public class AnimalTests
         Assert.Equal(5, monkey.Food);
         Assert.Equal(7, monkey.Kindness);
         Assert.InRange(monkey.Kindness, 0, 10);
-        
-        // var rabbit = new Rabbit(5, 12);
-        
     }
     
     [Fact]
@@ -89,78 +86,55 @@ public class WorkerTests
     }
 }
 
-public class ZooTests
+public class AnimalServiceTests
 {
     [Fact]
     public void ContactZoo_ShouldHaveCorrectAnimals()
     {
-        var zoo = new Zoo(new VetClinic());
-
+        var animalService = new AnimalService(new VetClinic());
+        
         var leo = new Tiger(29);
         var rabbit = new Rabbit(3, 8);
         var monkey = new Monkey(5, 2);
 
-        zoo.AddAnimal(leo);
-        zoo.AddAnimal(monkey);
-        zoo.AddAnimal(rabbit);
+        animalService.AddAnimal(leo);
+        animalService.AddAnimal(monkey);
+        animalService.AddAnimal(rabbit);
 
-        var contactZooAnimals = zoo.GetContactAnimals;
+        var contactZooAnimals = animalService.GetContactZooAnimals();
         
-        Assert.InRange(contactZooAnimals.Count(), 0, 1);
+        Assert.InRange(contactZooAnimals.Count, 0, 1);
     }
 
     [Fact]
     public void Zoo_ShouldHaveCorrectAmountOfAnimals()
     {
-        var zoo = new Zoo(new VetClinic());
+        var animalService = new AnimalService(new VetClinic());
 
         var leo = new Tiger(29);
         var rabbit = new Rabbit(3, 8);
         var monkey = new Monkey(5, 2);
 
-        zoo.AddAnimal(leo);
-        zoo.AddAnimal(monkey);
-        zoo.AddAnimal(rabbit);
+        animalService.AddAnimal(leo);
+        animalService.AddAnimal(monkey);
+        animalService.AddAnimal(rabbit);
         
-        Assert.InRange(zoo.GetTotalAnimals, 0, 3);
-        Assert.InRange(zoo.GetAnimals.Count(), 0, 3);
+        Assert.InRange(animalService.TotalAnimals, 0, 3);
+        Assert.InRange(animalService.GetAnimals.Count(), 0, 3);
     }
-
-    [Fact]
-    public void Zoo_ShoudKnowsEverything()
-    {
-        var zoo = new Zoo(new VetClinic());
-        var leo = new Tiger(29);
-        var comp = new Computer();
-        var person = new Worker("Andy", 1);
-        
-        zoo.AddAnimal(leo);
-        zoo.AddThing(comp);
-        zoo.AddWorker(person);
-        
-        Assert.InRange(zoo.GetTotalAnimals, 0, 1);
-        Assert.Equal(1, zoo.GetTotalThings);
-        Assert.Equal(1, zoo.GetTotalWorkers);
-        
-        Assert.Equal(1, zoo.GetTotalWorkersFood);
-        
-        // Assert.Contains(leo, zoo.GetAnimals);
-        Assert.Contains(comp, zoo.GetThings);
-        Assert.Contains(person, zoo.GetWorkers);
-        
-    }
-    
     
     [Fact]
     public void Zoo_ShouldCalculateTotalFood()
     {
-        var zoo = new Zoo(new VetClinic());
-        zoo.AddAnimal(new Tiger(10));
-        zoo.AddAnimal(new Monkey(5, 6));
+        var animalService = new AnimalService(new VetClinic());
+        
+        animalService.AddAnimal(new Tiger(10));
+        animalService.AddAnimal(new Monkey(5, 6));
 
-        Assert.InRange(zoo.GetTotalAnimalsFood, 0, 15);
+        Assert.InRange<int>(animalService.TotalAnimalsFood, 0, 15);
     }
 }
+
 public class DependencyInjectionTests
 {
     [Fact]
@@ -172,8 +146,55 @@ public class DependencyInjectionTests
 
         var vetClinic = serviceProvider.GetService<VetClinic>();
         Assert.NotNull(vetClinic);
+        
+        var animalService = serviceProvider.GetService<AnimalService>();
+        Assert.NotNull(animalService);
+        
+        var inventoryService = serviceProvider.GetService<InventoryService>();
+        Assert.NotNull(inventoryService);
+        
+        var workerService = serviceProvider.GetService<WorkerService>();
+        Assert.NotNull(workerService);
+        
+        var zooStatsService = serviceProvider.GetService<ZooStatsService>();
+        Assert.NotNull(zooStatsService);
 
         var zoo = serviceProvider.GetService<Zoo>();
         Assert.NotNull(zoo);
+    }
+}
+
+public class InventoryServiceTests
+{
+    [Fact]
+    public void Inventory_ShouldHaveCorrectItems()
+    {
+        var inventoryService = new InventoryService();
+        
+        var computer = new Computer();
+        var table = new Table();
+        
+        inventoryService.AddThing(computer);
+        inventoryService.AddThing(table);
+        
+        Assert.Equal(2, inventoryService.Things.Count);
+    }
+}
+
+public class WorkerServiceTests
+{
+    [Fact]
+    public void Worker_ShouldHaveCorrectProperties()
+    {
+        var workerService = new WorkerService();
+        
+        var vasya = new Worker("Vasya", 1);
+        var gena = new Worker("Gena", 2);
+        
+        workerService.AddWorker(vasya);
+        workerService.AddWorker(gena);
+        
+        Assert.Equal(2, workerService.GetWorkers.Count);
+        Assert.Equal(2, workerService.TotalWorkers);
     }
 }
