@@ -31,7 +31,6 @@
    ```sh
    git clone https://github.com/krevetka-is-afk/ERPSysZoo.git
    cd ERPSysZoo
-   cd ERP
    ```
 2. Установите зависимости:
    ```sh
@@ -39,15 +38,13 @@
    ```
 3. Запустите проект:
    ```sh
+   cd ERP
    dotnet run
    ```
 
 ## Тестирование
-1. Перейдите в каталог с тестами:
-   ```sh
-   cd ERPTest
+1. Перейдите в каталог с тестами и запустите их:
    ```
-2. Запустите тесты:
-   ```sh
+   cd ERPTest
    dotnet test
    ```
