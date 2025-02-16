@@ -23,13 +23,54 @@ while (true)
     switch (Console.ReadLine())
     {
         case "1":
-            zoo.AddAnimal(new Monkey(new Random().Next(0, 3), new Random().Next(0, 10))); // Демо-данные
+            Console.WriteLine("1. Добавить Обезьяну");
+            Console.WriteLine("2. Добавить Кролика");
+            Console.WriteLine("3. Добавить Волка");
+            Console.WriteLine("4. Добавить Тигра");
+            // Console.WriteLine("5. Выход");
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    zoo.AddAnimal(new Monkey(new Random().Next(1, 4), new Random().Next(0, 10))); // Демо-данные
+                    break;
+                case "2":
+                    zoo.AddAnimal(new Rabbit(new Random().Next(1, 4), new Random().Next(0, 10)));
+                    break;
+                case "3":
+                    zoo.AddAnimal(new Wolf(new Random().Next(3, 15)));
+                    break;
+                case "4":
+                    zoo.AddAnimal(new Tiger(new Random().Next(3, 15)));
+                    break;
+                // case "5":
+                //     return;
+                default:
+                    Console.WriteLine("Неверный ввод!");
+                    break;
+            }
+            
             break;
         case "2":
-            zoo.AddThing(new Thing());
+            Console.WriteLine("1. Добавить Компьютер");
+            Console.WriteLine("2. Добавить Стол");
+            // Console.WriteLine("3. Выход");
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    zoo.AddThing(new Computer());
+                    break;
+                case "2":
+                    zoo.AddThing(new Table());
+                    break;
+                // case "3":
+                //     return;
+                default:
+                    Console.WriteLine("Неверный ввод!");
+                    break;
+            }
             break;
         case "3":
-            zoo.AddWorker(new Worker("Алексей", new Random().Next(0, 3)));
+            zoo.AddWorker(new Worker($"Алексей – {new Random().Next(1,100)}", new Random().Next(0, 3)));
             break;
         case "4":
             zoo.ShowAnimals();
